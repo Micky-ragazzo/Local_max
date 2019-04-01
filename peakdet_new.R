@@ -96,4 +96,5 @@ peakdet_new <- function(dmx, v, x = NULL)
 # df_list <- by(DMX_together, DMX_together$DataMatrix, function(sub) 
 #        peakdet_new(sub$DataMatrix, sub$X, sub$Y))
 #  final_df <- do.call(rbind, unname(df_list))
- # final_df
+# final_df
+#write.xlsx(final_df, "../mydata.xlsx", sheetName = "Sheet1", col.names = TRUE, row.names = TRUE)
